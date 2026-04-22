@@ -36,16 +36,16 @@ function loadAssets() {
  */
 const shelfItems = [
     { 
-        id: 1, name: 'Maçã', price: 2, points: 10, isHealthy: true,
+        id: 1, name: 'Frango', price: 2, points: 10, isHealthy: true,
         x_p: 28.0, y_p: 41.0, r_p: 6.0 
     },
     { 
-        id: 2, name: 'Doces', price: 5, points: -15, isHealthy: false, // Item Errado
-        x_p: 46.0, y_p: 43.0, r_p: 6.5
-    },
-    { 
-        id: 3, name: 'Frango', price: 12, points: 25, isHealthy: true,
+        id: 2, name: 'Maça', price: 12, points: 25, isHealthy: true,
         x_p: 62.0, y_p: 43.0, r_p: 7.5 
+    },
+      { 
+        id: 3, name: 'Doces', price: 5, points: -15, isHealthy: false, // Item Errado
+        x_p: 46.0, y_p: 43.0, r_p: 6.5
     },
     { 
         id: 4, name: 'Ovos', price: 5, points: 12, isHealthy: true,
