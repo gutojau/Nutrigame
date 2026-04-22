@@ -1,0 +1,47 @@
+/* Fonte divertida para crianças */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+}
+
+#game-container {
+    position: relative;
+    border: 8px solid #ffcc00;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+    background-color: white;
+}
+
+#ui-panel {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px solid #ffcc00;
+}
+
+.info {
+    font-size: 22px;
+    color: #2c3e50;
+}
+
+#message {
+    color: #e67e22;
+    font-size: 18px;
+}
+
+canvas {
+    display: block;
+    cursor: pointer;
+    /* Se você não tiver a imagem de fundo ainda, o fundo será cinza claro */
+    background-color: #f9f9f9;
+}
